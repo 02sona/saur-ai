@@ -1,0 +1,313 @@
+
+.nfts-full-container{
+    background: url(../src/assets/images/nfts-icon-bg-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+ 
+.nfts-container{
+ 
+   background: url(../src/assets/images/nfts-icon-bg-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+   
+}
+/* body {
+    margin: 0;
+    font-family: 'Clash Display';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #FAFAFA;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+} */
+.nfts-container h2 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -1.8px;
+    font-family: 'Clash Display';
+}
+.nfts-container-center{
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+.nfts-container-center p {
+    text-align: center;
+    margin: 18.73px 0 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    font-family: "Darker Grotesque", serif;
+}
+.nfts-container-center .row {
+    margin-top: 128px;
+    position: relative;
+    margin-bottom: 50px;
+}
+/* Full container */
+.nfts-full-container {
+ 
+  background-color: #000; /* Page background if needed */
+  color: #fff;
+  font-family: 'Barlow', sans-serif;
+}
+ 
+/* Centered content */
+.nfts-container-center {
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+ 
+.nfts-container-center h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+ 
+.nfts-container-center p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 60px;
+}
+ 
+.banner-nfts-saction-tow-box {
+text-align: center;
+    border: 1.145px solid rgba(255, 255, 255, 0.50);
+    background: linear-gradient(90deg, rgba(194, 127, 57, 0.20) 0%, rgba(62, 97, 49, 0.20) 100%);
+    backdrop-filter: blur(109.66099548339844px);
+    padding: 27px 22px;
+     border-radius: 18.362px;
+    position: relative;
+    z-index: 11;
+ 
+}
+ 
+ 
+/* Optional hover effect */
+.banner-nfts-saction-tow-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+ 
+/* Card image */
+.banner-nfts-saction-tow-box img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+ 
+ 
+ 
+ 
+ 
+/* Margin fix if needed */
+.margain-top {
+  margin-top: 30px;
+}
+.banner-nfts-saction-tow-box span {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 135%;
+    font-family: "Darker Grotesque", serif;
+    display: inline-block;
+    margin: 12px 0 0 0;
+}
+.banner-nfts-saction-tow-box h3 {
+    margin: 30px 0 0 0;
+    width: 100%;
+    display: inline-block;
+    font-size: 28.41px;
+    letter-spacing: -0.882px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Clash Display';
+}
+.nfts-container-center p {
+    text-align: center;
+    margin: 18.73px 0 0 0;
+    color: #fff;
+    font-size: 30px !important;
+    font-weight: 600;
+    line-height: 34px;
+    font-family: "Darker Grotesque", serif;
+}
+.nfts-saction-one.nfts-saction-tow-one .row
+ 
+ {
+    margin-top: 40px;
+    display: flex
+;
+    margin-top: 40px;
+    display: flex
+;
+
+    gap: 30px;
+    justify-content: center;
+}
+ 
+.nfts-container-center .row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+ 
+.nfts-container-center .col-md-4 {
+  flex: 1 1 30%;
+  max-width: 30%;
+  min-width: 280px; /* ensures they don’t shrink too much */
+  box-sizing: border-box;
+}
+.heading-slider-nfts-section {
+    font-family: 'Clash Display';
+    margin-left: 15%;
+    FONT-SIZE: 66px;
+}
+
+ /* ============== */
+ .header-saction {
+  display: inline-block;
+  width: 100%;
+    background-color:#3c3719
+    
+    ;
+  padding: 7px 0;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.header-saction .container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-saction .navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: transparent !important;
+  padding: 0;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  width: 78%;
+  margin: 0 auto;
+}
+a.nav-link.active img {
+  vertical-align: middle;
+}
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-saction .container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  flex-grow: 1;
+  align-items: center;
+}
+.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.header-saction-inner {
+  width: 100% !important;
+}
+.header-saction-inner .navbar-nav li {
+  display: inline-block;
+  width: auto;
+  margin: 10px 25px;
+}
+.header-saction-inner .navbar-nav li a {
+  padding: 0;
+  color: #c0c1c4;
+  text-transform: capitalize;
+  font-size: 24px !important;
+  font-family: "Darker Grotesque", serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+ .button-contact {
+  width: 31%;
+  text-align: center;
+}
+button.button-contact {
+  border: 2px solid white;
+    background-color: transparent !important;
+background: linear-gradient(135deg, #C27F39 0%, #3E6131 100%);
+    color: white;
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(194, 127, 57, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+a.navbar-brand img {
+  padding-left: 0px;
+}
+.header-saction .navbar-brand {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+}
+ 
+ 

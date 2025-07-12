@@ -1,0 +1,142 @@
+.slider-wrapper-nfts-page {
+   width: 1031px !important; /* fixed width to show 3 images of ~300px */
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+ 
+.slider-container {
+  display: flex;
+  gap: 0px !important;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+  scroll-behavior: auto;
+  scrollbar-width: none;
+}
+ 
+.slider-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+ 
+.slider-image-nfts-page {
+    display: block;
+    width: 31% !important;
+    border-radius: 15px 15px 15px 15px !important;
+    border: 15px solid #252819;
+    height: 460px !important;
+    object-fit: cover !important;
+   
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+ 
+/* .slider-image-nfts-page:hover {
+  transform: scale(1.05);
+} */
+.slider-wrapper-nfts-page {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+ 
+.slider-container::-webkit-scrollbar {
+  display: none;
+  scrollbar-color:  #a87938 ;
+}
+ 
+ 
+/* .slider-image-nfts-page:hover {
+  transform: scale(1.05);
+} */
+.slider-wrapper-nfts-page {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+ 
+/* Slider track: initially hide scrollbar */
+.slider-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+}
+ 
+.slider-container::-webkit-scrollbar {
+  display: none; /* Chrome, Edge */
+    scrollbar-color:  #a87938 !important;
+}
+ 
+/* ✅ When hovering over wrapper, show scrollbar */
+.slider-wrapper-nfts-page:hover .slider-container {
+  scrollbar-width: thin; /* Firefox */
+}
+ 
+.slider-wrapper-nfts-page:hover .slider-container::-webkit-scrollbar {
+  scrollbar-color: #a87938 !important;
+  display: block;
+  height: 8px;
+}
+ 
+.slider-wrapper-nfts-page:hover .slider-container::-webkit-scrollbar-thumb {
+  background: #a87938 !important;
+  border-radius: 10px;
+}
+ 
+.slider-wrapper-nfts-page:hover .slider-container::-webkit-scrollbar-track {
+  background: #a87938 !important;
+}
+
+/* .slider-image-nfts-page:hover {
+  transform: scale(1.05);
+} */
+.slider-wrapper-nfts-page {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+   scrollbar-color:  #a87938 !important;
+}
+
+.slider-image-nfts-page {
+  flex: 0 0 auto;
+  width: 220px;
+  height: auto;
+  margin-right: 10px;
+  object-fit: cover;
+}
+/* Default: hide scrollbar */
+.slider-container:hover {
+  scrollbar-width: thin;              /* Firefox */
+  scrollbar-color: #a87938 transparent;
+}
+
+/* Chrome, Edge, Safari */
+.slider-container::-webkit-scrollbar:hover {
+  height: 8px;
+}
+
+.slider-container::-webkit-scrollbar-thumb:hover{
+  background-color: #a87938;
+  border-radius: 10px;
+}
+
+.slider-container::-webkit-scrollbar-track:hover{
+  background: #1F2313;
+}

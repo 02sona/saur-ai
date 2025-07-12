@@ -1,0 +1,300 @@
+/* SwapModal.css */
+ 
+.modal-content {
+  padding: 10px 20px 20px 20px;
+  background-image: url('../assets/images/nfts-icon-bg-5.png'); /* ✅ correct path */
+ 
+  border-radius: 10px;
+  color: white;
+  max-width: 500px;
+  margin: auto;
+}
+ 
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+ 
+.close-modal {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+ 
+.modal-header-heading h5 {
+    margin: 0 auto;
+    color: #d58f3c;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.outer-box {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #463b17;
+}
+ 
+ 
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 400;
+    color: #fff;
+}
+ 
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.input-wrapper {
+    flex: 1;
+    background: rgb(255 255 255 / 6%);
+    padding: 8px;
+    border-radius: 5px;
+}
+ 
+.input-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+ 
+.currency-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  font-size: 16px;
+}
+ 
+.currency-logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  user-select: none;
+}
+ 
+.saurai-logo {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  object-fit: contain;
+  filter: brightness(150%);
+  user-select: none;
+}
+ 
+.form-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+ 
+.form-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+   -webkit-appearance: none;
+
+  /* ✅ Remove number spinners - Chrome, Safari, Edge */
+}
+.form-input::-webkit-inner-spin-button,
+.form-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* ✅ Remove number spinners - Firefox */
+.form-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+ 
+#solValueUsdt,
+#sauraiValueUsdt {
+  font-size: 14px;
+  color: #dd7d19;
+}
+ 
+.swap-arrow-wrapper {
+  text-align: center;
+  margin: 5px 0;
+  position: relative;
+}
+ 
+#swapArrow {
+  width: 30px;
+  height: 30px;
+  background: url('../assets/images/arrow.png') no-repeat center center;
+  background-size: contain;
+  margin: auto;
+}
+ 
+#conversionColumn {
+  display: block;
+}
+ 
+.conversion-display {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: white;
+}
+ 
+#solToSauraiConversion {
+  font-family: 'Barlow', serif;
+  color: #d37d1d;
+  font-size: 20px;
+}
+ 
+#solToSauraiConversion1 {
+  font-family: 'Barlow', serif;
+}
+ 
+.modal-buttons {
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+ 
+.btn.btn-primary {
+  padding: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 31px;
+  transition: background 0.3s, color 0.3s;
+}
+ 
+ 
+.btn-primary {
+    background: linear-gradient(135deg, #C27F39 0%, #3E6131 100%);
+    color: white;
+    border: 2px solid transparent;
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(194, 127, 57, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+#swapArrow {
+    width: 15px;
+    height: 15px;
+    background-image: url(../assets/images/arrow.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0 8px 25px rgba(194, 127, 57, 0.3), 0 0 0 2px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    cursor: unset;
+    display: block;
+    margin: 0 auto;
+    margin: 10px auto 20px !important;
+}
+input#emailInput {
+    flex: 1;
+    background: #514725cf;
+    color: white;
+    font-size: 16px;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  padding: 30px;
+  position: relative;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Optional fade-in effect */
+@keyframes fadeIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.modal-close-icon
+
+ {
+    position: absolute;
+    top: 33px;
+    right: 58px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 0.3s;
+}
+
+.modal-close-icon:hover {
+  color: #a87938;
+  transform: scale(1.2);
+}

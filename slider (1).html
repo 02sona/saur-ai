@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slick Autoplay Fix</title>
+
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+    }
+
+    .slider {
+      width: 50%;
+      margin: auto;
+    }
+
+    .slider img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      display: block;
+      border-radius: 8px;
+    }
+
+    .slick-slide {
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center">Image Slider</h2>
+
+  <div class="slider">
+    <div><img src="./assets/img/slide-img(1).jpeg" alt="1" /></div>
+    <div><img src="./assets/img/slide-img(2).jpeg" alt="2" /></div>
+    <div><img src="./assets/img/slide-img(3).jpeg" alt="3" /></div>
+    <div><img src="./assets/img/slide-img(4).jpeg" alt="4" /></div>
+  </div>
+
+   <!-- jQuery first -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Slick JS -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    $(window).on('load', function () {
+      $('.slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        dots: true,
+        arrows: true,
+        infinite: true,
+        pauseOnHover: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
+
+</body>
+</html>
