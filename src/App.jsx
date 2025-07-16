@@ -35,7 +35,7 @@ function HomePage() {
 function App() {
 
   return (
-<Router basename="/saur-ai">
+<Router >
 <div style={{ width: '100vw', overflowX: 'hidden' }}>
 <Routes>
 <Route path="/" element={<HomePage />} />
