@@ -45,6 +45,7 @@
     border: 1px solid #fff;
     padding: 8px;
     border-radius: 4px;
+            padding-bottom: 15px;
   }
 
   .menu-icon {
@@ -66,12 +67,12 @@
   }
 
   .menu-icon::before {
-    top: -7px;
+    top: -10px;
     left: 0px;
   }
 
   .menu-icon::after {
-    top: 7px;
+    top: 10px;
     left: 0px;
   }
 
@@ -135,15 +136,58 @@
   .header-saction {
     display: none;
   }
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background:#AF7B38 ;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+}
+.modal-close-icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 9998;
+}
+
+.modal-header-heading h5 {
+    margin: 0 auto;
+    color: #3B3B1C;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
 
   /* ============================================================================================== */
   .common-section {
     width: 100%;
     margin: 0 auto;
+
   }
 
   .first-section-bg {
     width: 100%;
+    padding: 10px;
   }
 
   .row-first-section {
@@ -159,7 +203,7 @@
   }
 
   .nfts-saction-banner-left p.aos-init {
-    width: 100%;
+    width: 87%;
     text-align: center;
     justify-self: center;
   }
@@ -177,25 +221,27 @@
   .img-area img {
     width: 100%;
     object-fit: cover;
+    margin-left: 0px;
   }
 
   .nfts-saction-banner h2 {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 27.493px;
     font-family: "Clash Display";
     font-weight: 600;
-    width: 111%;
     align-content: center;
+    width: 103%;
   }
 
   .first-section-slider {
-    width: 95vw !important;
+    width: 100vw !important;
     padding: 20px 10px;
     justify-self: center;
+    margin-left: 0px !important;
   }
 
   .slick-slide img {
-    height: 145px !important;
+    height: 150px !important;
   }
 
   /* =============================================== */
@@ -222,6 +268,7 @@
 
   .nfts-saction-one-left.aos-init.aos-animate img {
     width: 100%;
+    margin-left: 0px !important;
   }
 
   .nfts-saction-one-right.aos-init.aos-animate {
@@ -249,14 +296,15 @@
   }
 
   .nfts-saction-three-box-one {
-    padding: 6px;
-    margin-top: 45px;
+    padding: 20px;
+    margin-top: 10px;
+    padding-top: 0%;
   }
 
   h2.aos-init.aos-animate {
     font-size: 25px !important;
-    line-height: normal;
-    text-transform: uppercase;
+    line-height: normal !important;
+    text-transform: uppercase !important;
     text-align: center;
     justify-self: center;
   }
@@ -264,6 +312,7 @@
   .row-third-section {
     display: block;
     justify-self: center;
+    margin-top: 0%;
   }
 
   .nfts-saction-three-box-one .col-md-6 {
@@ -288,7 +337,7 @@
     text-align: left;
     margin-bottom: 0px !important;
     line-height: 23px;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     padding-left: 0px !important;
   }
 
@@ -297,10 +346,11 @@
     font-size: 17px;
     text-align: left;
     line-height: normal;
+    padding-left: 0px !important;
   }
 
   .nfts-saction-three-box-one-right.aos-init.aos-animate {
-    margin-left: 0%;
+    margin-left: 0% !important;
     justify-self: center;
   }
 
@@ -311,12 +361,12 @@
   /* ================================================================ */
 
   .nfts-saction-three-box-tow {
-    padding: 6px;
-    margin-top: 45px;
+    padding: 20px;
+    margin-top: 0px;
   }
 
   h2.nfts-saction-three-box-tow-heading {
-    font-size: 21px;
+    font-size: 25px;
     text-align: center;
     line-height: normal;
   }
@@ -345,7 +395,7 @@
     font-size: 17px;
     line-height: normal;
     margin-bottom: 0px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: left;
   }
 
@@ -356,8 +406,8 @@
   /* ================================================================================ */
 
   .nfts-saction-three-box-three {
-    padding: 6px;
-    margin-top: 45px;
+    padding: 20px;
+    margin-top: 0px;
   }
 
   .nfts-saction-three-box-three span {
@@ -374,9 +424,9 @@
   }
 
   h2.nfts-saction-three-box-three-heading {
-    font-size: 25px;
-    text-align: left;
-    line-height: normal;
+    font-size: 25px !important;
+    text-align: left !important;
+    line-height: normal !important;
   }
 
   .nfts-saction-three-box-three-row {
@@ -412,6 +462,7 @@
 
   .nfts-saction-three-box-three-right img {
     width: 100%;
+    margin-left: 0px;
   }
 
   /* =================================================================================== */
@@ -450,13 +501,14 @@
 
   .nfts-saction-three-box-four-right img {
     width: 100%;
+    height: 200px;
   }
 
   /* ========================================================================== */
 
   .nfts-saction-three-box-five {
-    padding: 6px;
-    padding-top: 45px;
+    padding: 20px;
+    padding-top: 20px;
   }
 
   .row-five-section {
@@ -474,7 +526,7 @@
   }
 
   .nfts-saction-three-box-five-box ul {
-    margin-left: 0px;
+    margin-left: 0px !important;
     display: block;
     width: 100%;
     border: none;
@@ -492,7 +544,8 @@
   }
 
   .nfts-saction-three-box-five-box ul li span img {
-    width: 20px;
+    width: 30px;
+    margin-left: -4%;
   }
 
   .nfts-saction-three-box-five-box ul li p {
@@ -501,6 +554,7 @@
     line-height: 20px;
     text-align: left;
     padding-left: 0%;
+    margin-left: 5%;
   }
 
   .copy-text.aos-init {
@@ -508,6 +562,7 @@
     width: 100%;
     margin-bottom: 30px;
     justify-self: center;
+    left: 0px;
   }
 
   .copy-text .website {
@@ -527,10 +582,13 @@
   .nfts-saction-three-box-six {
     padding: 6px;
     width: 100%;
+    margin-top: 0%;
   }
 
-  .nfts-saction-three-box-six h2.aos-init {
-    font-size: 25px;
+  h2.nfts-saction-three-box-six-heading {
+    font-size: 24px !important;
+    margin-top: 0% !important;
+    padding-bottom: 0%;
   }
 
   /* =============================================================================== */
@@ -585,7 +643,7 @@
   }
 
   .header-saction-inner .navbar-nav li {
-    margin: 0 8px;
+    margin: 0 5px;
   }
 
   .header-saction-inner .navbar-nav li a {
@@ -600,16 +658,16 @@
     display: inline-block;
     width: 100%;
     text-align: center;
+    margin-left: 0px;
   }
 
-  a#buy-now-button {
-    padding-top: 10px !important;
-    font-size: 12px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    border-radius: 5px !important;
+  button.button-contact {
+    font-size: 14px !important;
+    width: fit-content !important;
+    padding: 10px 24px !important;
     text-align: center !important;
-    width: 150px;
+    display: inline-block !important;
+    white-space: nowrap !important;
   }
 
   .button-contact {
@@ -620,6 +678,7 @@
     margin: 0 20px;
   }
 
+  /* ================================================================================================================= */
   .first-section-bg {
     width: 100%;
     margin: 0 auto;
@@ -628,6 +687,10 @@
   h2.section-one {
     font-size: 30px;
     line-height: 27.493px;
+  }
+
+  .first-section-slider {
+    margin-left: 0% !important;
   }
 
   .content-area {
@@ -651,10 +714,10 @@
     width: 50%;
   }
 
-  img.nfts-icon-1 {
-    width: 100%;
-    height: 500px;
-  }
+     .img-area img {
+        width: 100%;
+        margin: 0px 0 0 0;
+    }
 
   .slick-slide img {
     height: 180px !important;
@@ -695,24 +758,28 @@
   .nfts-saction-three-box-one {
     margin: 0 0 0 0;
     padding-bottom: 15px;
-    padding: 20px;
+    padding: 40px;
   }
 
   h2.aos-init.aos-animate {
-    text-align: center;
-    margin: 0 0 30px 0;
-    font-size: 28px;
-    line-height: 30.389px;
+    text-align: center !important;
+    margin: 0 0 30px 0 !important;
+    font-size: 28px !important;
+    line-height: 30.389px !important;
+  }
+
+  .nfts-saction-three-box-one-left {
+    margin-top: 0px;
   }
 
   .nfts-saction-three-box-one-left ul {
-    padding-left: 75px;
+    padding-left: 60px;
   }
 
   .nfts-saction-three-box-one-left ul li {
     margin-bottom: 18px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 20px;
     padding: 0px 0px 0px 0px;
     display: list-item;
@@ -723,12 +790,12 @@
     font-size: 20px;
     line-height: 26px;
     text-align: left;
-    font-weight: 600;
-    width: 83%;
+    font-weight: 400;
+    width: 95%;
   }
 
   .nfts-saction-three-box-one-right.aos-init.aos-animate {
-    margin-left: 0%;
+    margin-left: 0% !important;
   }
 
   .nfts-saction-three-box-one-right.aos-init.aos-animate img {
@@ -756,11 +823,12 @@
   }
 
   .nfts-saction-three-box-tow-left.aos-init.aos-animate img {
-    width: 100%;
+    width: 83%;
+    padding-left: 10px;
   }
 
   .nfts-saction-three-box-tow-row ul {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 0px;
     margin: 0;
     width: 100%;
   }
@@ -775,7 +843,7 @@
 
   /* ======================================================================================================= */
   .nfts-saction-three-box-three {
-    padding: 20px;
+    padding: 32px;
   }
 
   .nfts-saction-three-box-three-row {
@@ -787,7 +855,7 @@
     width: 100%;
     color: #c27f39;
     font-size: 20px;
-    margin-left: 0px;
+    margin-left: 72px;
   }
 
   .nfts-saction-three-box-three span::before {
@@ -822,11 +890,12 @@
 
   .nfts-saction-three-box-three-right img {
     width: 100%;
+    margin-left: 0px;
   }
 
   /* ===================================================================================================== */
   .nfts-saction-three-box-four {
-    padding: 20px;
+    padding: 32px;
   }
 
   .nfts-saction-three-box-four-row {
@@ -839,9 +908,9 @@
   }
 
   .nfts-saction-three-box-four-left img {
-    width: 300px !important;
+    width: 250px !important;
     padding-top: 0px !important;
-    height: 300px !important;
+    height: 250px !important;
   }
 
   .nfts-saction-three-box-four-right img {
@@ -851,7 +920,7 @@
 
   /* ========================================================================================================= */
   .nfts-saction-three-box-five {
-    padding: 25px;
+    padding: 32px;
   }
 
   .nfts-saction-three-box-five h2 {
@@ -873,7 +942,7 @@
 
   .nfts-saction-three-box-five-box ul {
     margin: 20px 0 0 0;
-    padding: 0 20px 0 5px;
+    padding: 0 20px 0 15px;
   }
 
   .nfts-saction-three-box-five-box ul li {
@@ -881,11 +950,11 @@
   }
 
   .nfts-saction-three-box-five-box ul li span {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .nfts-saction-three-box-five-box ul li p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
   }
 
@@ -898,6 +967,7 @@
     display: flex;
     width: 100%;
     margin-bottom: 30px;
+    margin-left: 20px;
   }
 
   .copy-text .website {
@@ -911,7 +981,10 @@
   }
 
   .nfts-saction-three-box-six h2 {
-    font-size: 28px;
+    font-size: 60px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
   }
 
   /* ====================================================================================================== */
@@ -946,137 +1019,138 @@
   }
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 1025px) {
+@media only screen and (max-width: 1255px) and (min-width: 1025px) {
 
-  
-.header-saction {
-  display: inline-block;
-  width: 100%;
-  background-color: #05092b;
-  padding: 7px 0;
-  background-color: transparent;
-  margin: 0 auto;
-}
 
-.header-saction .container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
+  .header-saction {
+    display: inline-block;
+    width: 100%;
+    background-color: #05092b;
+    padding: 7px 0;
+    background-color: transparent;
+    margin: 0 auto;
+  }
 
-.header-saction .navbar.navbar-expand-lg.navbar-light.bg-light {
-  background-color: transparent !important;
-  padding: 0;
-}
+  .header-saction .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-.navbar {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content:space-between;
-  width: 100%;
-  margin: 0 auto;
-}
-a.nav-link.active img {
-  vertical-align: middle;
-}
-.navbar > .container,
-.navbar > .container-fluid,
-.navbar > .container-lg,
-.navbar > .container-md,
-.navbar > .container-sm,
-.navbar > .container-xl,
-.navbar > .container-xxl {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
-}
+  .header-saction .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent !important;
+    padding: 0;
+  }
 
-.header-saction .container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+  }
 
-.navbar-expand-lg .navbar-collapse {
-  display: flex !important;
-  flex-basis: auto;
-  flex-grow: 1;
-  align-items: center;
-}
-.navbar-nav.me-auto.mb-2.mb-lg-0 {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-.header-saction-inner {
-  width: 100% !important;
-}
-.header-saction-inner .navbar-nav li {
-  display: inline-block;
-  width: auto;
-  margin: 0 10px;
-}
-.header-saction-inner .navbar-nav li a {
-  padding: 0;
-  color: #c0c1c4;
-  text-transform: capitalize;
-  font-size: 24px !important;
-  font-family: "Darker Grotesque", serif;
-  font-weight: 600;
-  text-decoration: none;
-}
-.nfts-saction-one .button-contact {
-  width: 32%;
-  text-align: start;
-}
-.nfts-saction-one .button-contact a {
-  background: linear-gradient(90deg, #c27f39 0%, #3e6131 100%);
-  box-shadow: 2.67px 2.67px 0px 0px rgba(100, 90, 50, 0.5);
-  border: 1.335px solid #fff;
+  a.nav-link.active img {
+    vertical-align: middle;
+  }
 
-  display: inline-block;
-  border-radius: 24px;
-  text-align: center;
-  padding: 10px 48px 12px !important;
-  color: #fff !important;
-  font-size: 18px;
-  font-weight: 500;
-  text-decoration: none;
-  font-family: "Be Vietnam Pro", sans-serif;
-}
-a.navbar-brand img {
-  padding-left: 0px;
-}
-.header-saction .navbar-brand {
-  margin: 0;
-  padding: 0;
-  font-size: 1.25rem;
-  text-decoration: none;
-  white-space: nowrap;
-}
+  .navbar>.container,
+  .navbar>.container-fluid,
+  .navbar>.container-lg,
+  .navbar>.container-md,
+  .navbar>.container-sm,
+  .navbar>.container-xl,
+  .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
-}
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  .navbar-nav.me-auto.mb-2.mb-lg-0 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-saction-inner {
+    width: 100% !important;
+    display: inline-block;
+    background-color: #05092b;
+    padding: 7px 0;
+    background-color: transparent;
+    margin: 0 auto;
+  }
+
+  .header-saction-inner .navbar-nav li {
+    display: inline-block;
+    width: auto !important;
+    margin: 0 10px !important;
+  }
+
+  .header-saction-inner .navbar-nav li a {
+    padding: 0;
+    color: #c0c1c4;
+    text-transform: capitalize;
+    font-size: 24px !important;
+    font-family: "Darker Grotesque", serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .nfts-saction-one .button-contact {
+    width: 34%;
+    text-align: center !important;
+  }
+
+  .nfts-saction-one button.button-contact {
+    background: linear-gradient(90deg, #c27f39 0%, #3e6131 100%);
+    box-shadow: 2.67px 2.67px 0px 0px rgba(100, 90, 50, 0.5);
+    border: 1.335px solid #fff;
+
+    display: inline-block;
+    border-radius: 24px;
+    text-align: center;
+    padding: 10px 48px 12px !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+
+  a.navbar-brand img {
+    padding-left: 0px;
+  }
+
+  .header-saction .navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+  }
 
   /* ==================================================================================================================== */
   .nfts-saction-banner-left p {
@@ -1087,15 +1161,17 @@ a.navbar-brand img {
 
   .img-area img {
     width: 100%;
-    margin: 15px 0 0 0;
+    margin: 0px 0 0 32px;
   }
 
   .content-area {
     width: 50%;
+    flex: 0 0 auto;
   }
 
   .img-area {
     width: 50%;
+    flex: 0 0 auto;
   }
 
   .slick-slide img {
@@ -1110,14 +1186,18 @@ a.navbar-brand img {
 
   .nfts-saction-one-right p {
     margin: 29px 0 0 0;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
+  }
+
+  .nfts-saction-one-left.aos-init.aos-animate img {
+    margin-left: 0%;
   }
 
   /* ===================================================================================================== */
 
   h2.aos-init.aos-animate {
-    font-size: 44px;
+    font-size: 44px !important;
   }
 
   .nfts-saction-three-box-one-left ul li {
@@ -1129,12 +1209,27 @@ a.navbar-brand img {
     width: 90%;
     padding-left: 0px;
   }
-.nfts-saction-three-box-one-right.aos-init.aos-animate  {
-   margin-left:0px !important;
-}
+
+  .nfts-saction-three-box-one-right.aos-init.aos-animate {
+    margin-left: 0px !important;
+  }
+
+  .nfts-saction-three-box-one .col-md-6 {
+    width: 50%;
+    flex: 0 0 auto;
+  }
+
+  .nfts-saction-three-box-one.aos-init.aos-animate {
+    padding: 40px;
+  }
+
   /* ==================================================================================================== */
   .nfts-saction-three-box-tow {
     padding: 20px;
+  }
+
+  .nfts-saction-three-box-tow-row.aos-init.aos-animate {
+    gap: 30px;
   }
 
   h2.nfts-saction-three-box-tow-heading {
@@ -1142,10 +1237,17 @@ a.navbar-brand img {
     line-height: 50px;
   }
 
+  .nfts-saction-three-box-tow-right ul {
+    padding: 0 0 0 30px;
+    margin: 0;
+    width: 100%;
+  }
+
   .nfts-saction-three-box-tow-right ul li {
     font-size: 22px;
     line-height: 30px;
     margin-left: 0px;
+    /* font-family: none; */
   }
 
   .nfts-saction-three-box-tow-left.aos-init.aos-animate {
@@ -1158,13 +1260,17 @@ a.navbar-brand img {
   }
 
   .nfts-saction-three-box-three span {
-    margin-left: 0%;
+    margin-left: 3%;
   }
 
   h2.nfts-saction-three-box-three-heading {
-    font-size: 44px;
-    text-align: left;
+    font-size: 44px !important;
+    text-align: left !important;
   }
+
+    .nfts-saction-three-box-three-left {
+    padding-left: 0px;
+}
 
   .nfts-saction-three-box-three-left ul {
     margin-left: 0%;
@@ -1172,11 +1278,17 @@ a.navbar-brand img {
 
   .nfts-saction-three-box-three-right img {
     width: 100%;
+    margin-left: 0px;
+
   }
 
   /* =============================================================================================== */
   .nfts-saction-three-box-four {
     padding: 20px;
+  }
+
+  .nfts-saction-three-box-four-row {
+    gap: 0px;
   }
 
   .col-md-6-img {
@@ -1185,22 +1297,28 @@ a.navbar-brand img {
 
   .nfts-saction-three-box-four-left img {
     width: auto;
-    height: 370px;
-    padding-top: 0px;
+    height:340px;
+        padding-top: 0px;
   }
 
   .nfts-saction-three-box-four-right img {
     width: 100%;
+    padding-right: 0px;
   }
 
   /* =================================================================================================== */
   .row-five-section {
     padding-left: 0%;
     padding-right: 0%;
+    gap: 35px;
   }
 
   .nfts-saction-three-box-five-box ul li span {
     font-size: 24px;
+  }
+
+  .nfts-saction-three-box-five-box ul {
+    margin-left: 0%;
   }
 
   .nfts-saction-three-box-five-box ul li p {
@@ -1209,16 +1327,407 @@ a.navbar-brand img {
   }
 
   .nfts-saction-three-box-five {
-    padding: 30px;
+    padding: 40px;
   }
 
   h3.nfts-saction-three-box-five-sub-heading {
     font-size: 24px;
   }
 
+  .copy-text {
+    left: 0px;
+  }
+
   .copy-text .website {
     font-size: 24px;
     text-align: center;
+  }
+
+
+  h2.nfts-saction-three-box-six-heading {
+    font-size: 85px !important;
+    
+  }
+
+  .nfts-saction-one .button-contact a {
+    background: linear-gradient(90deg, #c27f39 0%, #3e6131 100%);
+    box-shadow: 2.67px 2.67px 0px 0px rgba(100, 90, 50, 0.5);
+    border: 1.335px solid #fff;
+
+    display: inline-block;
+    border-radius: 24px;
+    text-align: center;
+    padding: 15px 20px 16px !important;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+
+  .banner-nfts-saction-tow-box.margain-top.aos-init.aos-animate {
+    height: 450px;
+} 
+
+
+}
+
+@media only screen and (max-width: 1523px) and (min-width: 1255px) {
+
+
+  .header-saction {
+    display: inline-block;
+    width: 100%;
+    background-color: #05092b;
+    padding: 7px 0;
+    background-color: transparent;
+    margin: 0 auto;
+  }
+
+  .header-saction .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header-saction .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent !important;
+    padding: 0;
+  }
+
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  a.nav-link.active img {
+    vertical-align: middle;
+  }
+
+  .navbar>.container,
+  .navbar>.container-fluid,
+  .navbar>.container-lg,
+  .navbar>.container-md,
+  .navbar>.container-sm,
+  .navbar>.container-xl,
+  .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  .navbar-nav.me-auto.mb-2.mb-lg-0 {
+    display: inline-block;
+    width: 64%;
+    text-align: center;
+  }
+
+  .header-saction-inner {
+    width: 100% !important;
+    display: inline-block;
+    background-color: #05092b;
+    padding: 7px 0;
+    background-color: transparent;
+    margin: 0 auto;
+  }
+
+  .header-saction-inner .navbar-nav li {
+    display: inline-block;
+    width: auto !important;
+    margin: 0 10px !important;
+  }
+
+  .header-saction-inner .navbar-nav li a {
+    padding: 0;
+    color: #c0c1c4;
+    text-transform: capitalize;
+    font-size: 24px !important;
+    font-family: "Darker Grotesque", serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .nfts-saction-one .button-contact {
+    width: 22%;
+    text-align: center !important;
+  }
+
+  .nfts-saction-one button.button-contact {
+    background: linear-gradient(90deg, #c27f39 0%, #3e6131 100%);
+    box-shadow: 2.67px 2.67px 0px 0px rgba(100, 90, 50, 0.5);
+    border: 1.335px solid #fff;
+
+    display: inline-block;
+    border-radius: 24px;
+    text-align: center;
+    padding: 10px 48px 12px !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+
+  a.navbar-brand img {
+    padding-left: 127px;
+  }
+
+  .header-saction .navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  /* ==================================================================================================================== */
+  .nfts-saction-banner-left p {
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 0%;
+  }
+
+  .img-area img {
+    width: 100%;
+    margin: 0px 0 0 32px;
+  }
+
+  .content-area {
+    width: 50%;
+    flex: 0 0 auto;
+  }
+
+  .img-area {
+    width: 50%;
+    flex: 0 0 auto;
+  }
+
+  .slick-slide img {
+    height: 180px !important;
+  }
+
+  /* =================================================================================================== */
+
+  .nfts-saction-one-right h2 {
+    font-size: 44px;
+  }
+
+  .nfts-saction-one-right p {
+    margin: 29px 0 0 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .nfts-saction-one-left.aos-init.aos-animate img {
+    margin-left: 15%;
+  }
+
+  /* ===================================================================================================== */
+
+  h2.aos-init.aos-animate {
+    font-size: 44px !important;
+  }
+
+  .nfts-saction-three-box-one-left ul li {
+    font-size: 24px;
+  }
+
+  .nfts-saction-three-box-one-left p {
+    font-size: 24px;
+    width: 70%;
+    padding-left: 0px;
+  }
+
+  .nfts-saction-three-box-one-right.aos-init.aos-animate {
+    margin-left: 0px !important;
+  }
+
+  .nfts-saction-three-box-one .col-md-6 {
+    width: 50%;
+    flex: 0 0 auto;
+  }
+
+  .nfts-saction-three-box-one.aos-init.aos-animate {
+    padding: 40px;
+  }
+
+  /* ==================================================================================================== */
+  .nfts-saction-three-box-tow {
+    padding: 20px;
+  }
+
+  .nfts-saction-three-box-tow-row.aos-init.aos-animate {
+    gap: 30px;
+  }
+
+  h2.nfts-saction-three-box-tow-heading {
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  .nfts-saction-three-box-tow-right ul {
+    padding: 0 0 0 30px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .nfts-saction-three-box-tow-right ul li {
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 0px;
+    /* font-family: none; */
+  }
+
+  .nfts-saction-three-box-tow-left.aos-init.aos-animate {
+    margin-left: 0%;
+  }
+
+  /* ========================================================================================== */
+  .nfts-saction-three-box-three {
+    padding: 20px;
+  }
+
+  .nfts-saction-three-box-three span {
+    margin-left: 16%;
+  }
+
+  h2.nfts-saction-three-box-three-heading {
+    font-size: 44px !important;
+    text-align: left !important;
+  }
+
+  .nfts-saction-three-box-three-left ul {
+    margin-left: 0%;
+  }
+
+  .nfts-saction-three-box-three-right img {
+    width: 100%;
+    margin-left: 0px;
+
+  }
+
+  /* =============================================================================================== */
+  .nfts-saction-three-box-four {
+    padding: 20px;
+  }
+
+  .nfts-saction-three-box-four-row {
+    gap: 0px;
+  }
+
+  .col-md-6-img {
+    width: 50%;
+  }
+
+  .nfts-saction-three-box-four-left img {
+    width: auto;
+    /* height:auto; */
+     width: auto;
+        /* height: 329px; */
+        padding-top: 0px;
+        padding-left: 120px;
+  }
+
+  .nfts-saction-three-box-four-right img {
+    width: 100%;
+    padding-right: 50px;
+  }
+
+  /* =================================================================================================== */
+  .row-five-section {
+    padding-left: 0%;
+    padding-right: 0%;
+    gap: 35px;
+  }
+
+  .nfts-saction-three-box-five-box ul li span {
+    font-size: 24px;
+  }
+
+  .nfts-saction-three-box-five-box ul {
+    margin-left: 0%;
+  }
+
+  .nfts-saction-three-box-five-box ul li p {
+    font-size: 20px;
+    padding: 0 15px 0 30px;
+  }
+
+ .nfts-saction-three-box-five {
+    padding: 115px !important;
+  }
+
+
+  h3.nfts-saction-three-box-five-sub-heading {
+    font-size: 24px;
+  }
+
+  .copy-text {
+    left: 0px;
+  }
+
+  .copy-text .website {
+    font-size: 24px;
+    text-align: center;
+  }
+
+
+  h2.nfts-saction-three-box-six-heading {
+    font-size: 85px !important;
+    
+  }
+
+  .nfts-saction-one .button-contact a {
+    background: linear-gradient(90deg, #c27f39 0%, #3e6131 100%);
+    box-shadow: 2.67px 2.67px 0px 0px rgba(100, 90, 50, 0.5);
+    border: 1.335px solid #fff;
+
+    display: inline-block;
+    border-radius: 24px;
+    text-align: center;
+    padding: 15px 20px 16px !important;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+
+  .banner-nfts-saction-tow-box.margain-top.aos-init.aos-animate {
+    height: 450px;
+} 
+
+  .nfts-saction-three-box-three-left {
+    padding-left: 90px;
+}
+
+.button-contact{
+  width: 20%;
 }
 }
 
@@ -1226,4 +1735,9 @@ a.navbar-brand img {
   header.mobile-header {
     display: none;
   }
+
 }
+
+
+
+

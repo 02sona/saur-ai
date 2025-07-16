@@ -9,12 +9,16 @@ import Saleslider from './Saleslider';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 function Nfts() {
 
-
+const navigate = useNavigate();
    useEffect(() => {
+
+
+
   AOS.init({
     duration: 1000, // animation duration in ms
     once: true,     // animation should happen only once
@@ -30,7 +34,7 @@ function Nfts() {
         <div  className='nfts-container'>
          <Header/>
             <div data-aos="fade-up" className='nfts-container-center'>
-            <h2 data-aos="fade-up" className="aos-init aos-animate">Unlock Power Of The <br/>SaurAI Labs NFTs</h2>
+            <h2 data-aos="fade-up" className="nfts-heading">Unlock Power Of The <br/>SaurAI Labs NFTs</h2>
             <p  className="aos-init aos-animate">Your NFTs remain your ticket to becoming part of the most exclusive<br/> crypto empire on
             Earth. These NFTs aren’t just collectables, they <br/>are your gateway to the Saurverse
          </p>

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -61,20 +62,22 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   width: 78%;
   margin: 0 auto;
 }
+
 a.nav-link.active img {
   vertical-align: middle;
 }
-.navbar > .container,
-.navbar > .container-fluid,
-.navbar > .container-lg,
-.navbar > .container-md,
-.navbar > .container-sm,
-.navbar > .container-xl,
-.navbar > .container-xxl {
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -101,19 +104,23 @@ a.nav-link.active img {
   flex-grow: 1;
   align-items: center;
 }
+
 .navbar-nav.me-auto.mb-2.mb-lg-0 {
   display: inline-block;
   width: 100%;
   text-align: center;
 }
+
 .header-saction-inner {
   width: 100% !important;
 }
+
 .header-saction-inner .navbar-nav li {
   display: inline-block;
   width: auto;
   margin: 10px 25px;
 }
+
 .header-saction-inner .navbar-nav li a {
   padding: 0;
   color: #c0c1c4;
@@ -123,32 +130,36 @@ a.nav-link.active img {
   font-weight: 600;
   text-decoration: none;
 }
+
 .nfts-saction-one .button-contact {
-  width: 32%;
+  width: 20%;
   text-align: center;
 }
+
 .nfts-saction-one button.button-contact {
-    border: 2px solid white;
-    background-color: transparent !important;
-background: linear-gradient(135deg, #C27F39 0%, #3E6131 100%);
-    color: white;
-    width: 100%;
-    padding: 16px 24px;
-    border-radius: 45px;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 8px 25px rgba(194, 127, 57, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  background-color: transparent !important;
+  background: linear-gradient(135deg, #C27F39 0%, #3E6131 100%);
+  color: white;
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 45px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(194, 127, 57, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   font-family: "Be Vietnam Pro", sans-serif;
 }
+
 a.navbar-brand img {
   padding-left: 0px;
 }
+
 .header-saction .navbar-brand {
   margin: 0;
   padding: 0;
@@ -164,33 +175,39 @@ a.navbar-brand img {
 .first-section-bg {
   display: inline-block;
   width: 100%;
- 
+
   background: url("assets/images/nfts-icon-bg-5.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
 }
+
 .header-saction-inner {
   width: 94%;
 }
+
 .first-section-bg {
   width: 100%;
   display: inline-block;
   position: relative;
 }
+
 .nfts-saction-banner {
   width: 80%;
   margin: 0 auto;
 }
+
 .row-first-section {
   display: flex;
   justify-self: center;
   gap: 20px;
 }
+
 .content-area {
   width: 50%;
   align-self: center;
 }
+
 .nfts-saction-banner-left p {
   margin: 0 0 20px 0;
   color: #fff;
@@ -200,13 +217,16 @@ a.navbar-brand img {
   font-family: "Barlow", sans-serif;
   margin-left: 57px;
 }
+
 img.nfts-icon-1 {
-    margin-left: 52px;
+  margin-left: 52px;
 }
+
 .img-area {
   width: 30%;
   vertical-align: middle;
 }
+
 h2.section-one {
   color: #fff;
   text-align: center;
@@ -219,9 +239,11 @@ h2.section-one {
   display: inline-block;
   font-family: "Clash Display";
 }
+
 .nfts-saction-one-left.aos-init.aos-animate img {
-    margin-left: 27%;
+  margin-left: 27%;
 }
+
 .slick-slide img {
   display: block;
   width: 92% !important;
@@ -232,6 +254,7 @@ h2.section-one {
   outline: 1px solid #f5ffbf;
   margin: 2px;
 }
+
 .slick-slide {
   padding: 4px;
 }
@@ -318,9 +341,11 @@ h2.section-one {
 .nfts-saction-three-box-one-right.aos-init.aos-animate {
   margin-left: 8% !important;
 }
+
 ul.border-section {
   border-right: dashed 1px rgba(255, 255, 255, 0.5);
 }
+
 .marquee {
   display: flex;
   width: 100%;
@@ -433,12 +458,14 @@ ul.border-section {
   font-family: "Barlow", sans-serif;
   padding-left: 39px;
 }
+
 .nfts-saction-three-box-tow-right ul li img
  {
     position: absolute;
     left: 0;
     top: 8px;
 }
+
 /* .nfts-saction-three-box-one-right.aos-init.aos-animate {
   margin-left: 0%;
 } */
@@ -468,25 +495,24 @@ h2.nfts-saction-three-box-tow-heading {
 .nfts-saction-three-box-tow-row {
   margin-top: 40px;
   display: flex;
-  gap:127px;
+
   justify-content: center;
 }
 
 .nfts-saction-three-box-tow-right ul li {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 30px;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 40px;
-    color: #fff;
-     font-family: "Barlow", sans-serif;
-    position: relative;
-    padding: 0 0 0 40px;
-        margin-left: -164px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #fff;
+  /* font-family: "Barlow", serif; */
+  position: relative;
+  padding: 0 0 0 40px;
 
 }
- 
+
 .nfts-saction-three-box-tow .col-md-6 {
   width: 43%;
 }
@@ -533,9 +559,9 @@ h2.nfts-saction-three-box-three-heading {
   font-size: 54px;
   font-weight: 600;
   line-height: 14px;
-    text-transform: none !important;
-    text-align: left !important;
-    margin-left: 202px !important;
+  text-transform: none !important;
+  text-align: left !important;
+  margin-left: 202px !important;
 }
 
 
@@ -617,22 +643,24 @@ h2.nfts-saction-three-box-three-heading {
   font-family: "Clash Display";
   text-transform: uppercase;
 }
-.nfts-saction-three-box-five-box ul img{
+
+.nfts-saction-three-box-five-box ul img {
   margin-left: -29px;
 }
+
 .nfts-saction-three-box-four-row {
   margin-top: 40px;
   display: flex;
   margin-top: 40px;
   display: flex;
- gap: 80px;
+  gap: 80px;
   justify-content: center;
 }
 
 .nfts-saction-three-box-four-left img {
-  width:100%;
+  width: 100%;
   height: 450px;
-  
+
 }
 
 .nfts-saction-three-box-four-right img {
@@ -665,16 +693,16 @@ h2.nfts-saction-three-box-three-heading {
 }
 
 .nfts-saction-three-box-five h2 {
-    color: #fff !important;
-    text-align: center !important;
-    font-size: 90px !important;
-    font-weight: 600 !important;
-        font-family: "Clash Display" !important;
-    width: 100% !important;
-    display: inline-block !important;
-    padding: 0px !important;
-    margin: 0 !important;
-    margin-top: 125px !important;
+  color: #fff !important;
+  text-align: center !important;
+  font-size: 90px !important;
+  font-weight: 600 !important;
+  font-family: "Clash Display" !important;
+  width: 100% !important;
+  display: inline-block !important;
+  padding: 0px !important;
+  margin: 0 !important;
+  margin-top: 125px !important;
 }
 
 h3.nfts-saction-three-box-five-heading {
@@ -720,9 +748,11 @@ h3.nfts-saction-three-box-five-sub-heading {
 .nfts-saction-three-box-five-box ul li {
   width: 147%;
 }
-.nfts-saction-three-box-five-box ul li span img{
+
+.nfts-saction-three-box-five-box ul li span img {
   margin-right: 10px;
 }
+
 .nfts-saction-three-box-five-box {
   display: inline-block;
   width: 100%;
@@ -762,11 +792,9 @@ h3.nfts-saction-three-box-five-sub-heading {
 .copy-text {
   position: relative;
   padding: 20px 19px;
-  background: linear-gradient(
-    90deg,
-    rgba(194, 127, 57, 0.15) 0%,
-    rgba(62, 97, 49, 0.15) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(194, 127, 57, 0.15) 0%,
+      rgba(62, 97, 49, 0.15) 100%);
   border: 1.145px solid #fff;
   border-radius: 18px;
   display: flex;
@@ -789,17 +817,19 @@ h3.nfts-saction-three-box-five-sub-heading {
 }
 
 /* ============================================= */
-.nfts-saction-three-box-six-heading{
-      font-size: 90px;
-    font-weight: 600;
-    color: #fff;
-     font-family: "Clash Display";
-    text-align: center;
-    padding-bottom: 20px;
+.nfts-saction-three-box-six-heading {
+  font-size: 90px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Clash Display";
+  text-align: center;
+  padding-bottom: 20px;
 }
+
 .nfts-saction-three-box-six {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
+
 .footer-saction-nfts {
   padding: 108px 0 80px 0;
   overflow: hidden;
@@ -850,7 +880,6 @@ h3.nfts-saction-three-box-five-sub-heading {
 
 .footer-saction.footer-saction-nfts {
   text-align: center;
-  margin-bottom: 70px;
 }
 
 .footer-saction p a {
@@ -884,18 +913,18 @@ h3.nfts-saction-three-box-five-sub-heading {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #a87938;      /* golden thumb */
+  background-color: #a87938;
+  /* golden thumb */
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #3B3B1C;      /* your requested background */
+  background-color: #3B3B1C;
+  /* your requested background */
 }
 
 /* Firefox */
 * {
-  scrollbar-width:30px;
+  scrollbar-width: 30px;
   scrollbar-color: #a87938 #3B3B1C;
 }
-
- 

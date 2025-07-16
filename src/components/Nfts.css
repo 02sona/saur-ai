@@ -1,6 +1,6 @@
 
 .nfts-full-container{
-    background: url(../src/assets/images/nfts-icon-bg-4.png);
+    background: url("../assets/images/nfts-icon-bg-4.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -8,7 +8,7 @@
  
 .nfts-container{
  
-   background: url(../src/assets/images/nfts-icon-bg-5.png);
+   background: url("../assets/images/nfts-icon-bg-5.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -159,7 +159,7 @@ text-align: center;
   display: flex;
   justify-content: center;
   gap: 30px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
  
 .nfts-container-center .col-md-4 {
@@ -310,4 +310,128 @@ a.navbar-brand img {
   color: rgba(0, 0, 0, 0.9);
 }
  
- 
+ /* ============================================================================================= */
+@media (max-width: 768px) and (min-width: 320px) {
+h2.nfts-heading.aos-init.aos-animate {
+    font-size: 22px !important;
+}
+
+p.aos-init.aos-animate {
+    text-align: center;
+    margin: 15.73px 0 0 0;
+    font-size: 18px !important;
+    line-height: 24px;
+}
+
+.nfts-container-center .row {
+    margin-top: 70px;
+}
+
+
+.banner-nfts-saction-tow-box h3 {
+    margin: 20px 0 0 0;
+    font-size: 22.41px !important;
+    letter-spacing: inherit;
+}
+.banner-nfts-saction-tow-box span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 104%;
+    font-family: "Darker Grotesque", serif;
+    display: inline-block;
+    margin: 5px 0 0 0;
+}
+.banner-nfts-saction-tow-box {
+    text-align: center;
+    border: 1.145px solid rgba(255, 255, 255, 0.50);
+    background: linear-gradient(90deg, rgba(194, 127, 57, 0.20) 0%, rgba(62, 97, 49, 0.20) 100%);
+    backdrop-filter: blur(109.66099548339844px);
+    padding: 4px 21px;
+    border-radius: 18.362px;
+    position: relative;
+    z-index: 11;
+}
+.banner-nfts-saction-tow-box img {
+    width: 77px;
+    margin-bottom: 0px;
+}
+.margain-top {
+    margin-top: 0px;
+}
+h1.heading-slider-nfts-section {
+        color: #fff;
+        font-size: 26px;
+        line-height: 24px;
+        padding: 20px 0 0;
+        align-items: left;
+    }
+    .slider-image-nfts-page {
+        width: 26% !important;
+        height: 350px !important;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+h2.nfts-heading.aos-init.aos-animate {
+        font-size: 28px !important;
+        letter-spacing: inherit;
+}
+
+p.aos-init.aos-animate {
+        text-align: center;
+        margin: 15.73px 0 0 0;
+        font-size: 21px !important;
+        line-height: 24px;
+}
+.banner-nfts-saction-tow-box.margain-top.aos-init.aos-animate {
+    height: 268px;
+}
+.nfts-container-center .row {
+    display: flex
+;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.banner-nfts-saction-tow-box h3 {
+    margin: 20px 0 0 0;
+    font-size: 22.41px !important;
+    letter-spacing: inherit;
+}
+.banner-nfts-saction-tow-box span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 104%;
+    font-family: "Darker Grotesque", serif;
+    display: inline-block;
+    margin: 5px 0 0 0;
+}
+.banner-nfts-saction-tow-box {
+    text-align: center;
+    border: 1.145px solid rgba(255, 255, 255, 0.50);
+    background: linear-gradient(90deg, rgba(194, 127, 57, 0.20) 0%, rgba(62, 97, 49, 0.20) 100%);
+    backdrop-filter: blur(109.66099548339844px);
+    padding: 4px 21px;
+    border-radius: 18.362px;
+    position: relative;
+    z-index: 11;
+}
+.banner-nfts-saction-tow-box img {
+    width: 77px;
+    margin-bottom: 0px;
+}
+.margain-top {
+    margin-top: 0px;
+}
+.nfts-container-center .col-md-4 {
+    /* flex: 1 1 30%; */
+    max-width: 30%;
+    min-width: 198px;
+    box-sizing: border-box;
+}
+
+
+}

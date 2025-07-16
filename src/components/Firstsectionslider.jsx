@@ -20,6 +20,21 @@ const Firstsectionslider = () => {
     pauseOnHover: false,
     appendDots: dots => <ul className="firstsection-slick-dots">{dots}</ul>,
     customPaging: () => <button />,
+
+     responsive: [
+      {
+        breakpoint: 1024, // for tablets and small laptops
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+         breakpoint: 768, // for mobile 
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      }
+    ] 
   };
 
   const images = [img1, img2, img3, img4];
