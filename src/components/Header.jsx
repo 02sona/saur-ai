@@ -22,9 +22,10 @@ function Header() {
             <div className="header-saction-inner">
               <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
-                  <a className="navbar-brand" href="http://localhost:5173/">
-                    <img src={logoimage} alt="LOGO" className="header-logo" draggable="false" />
-                  </a>
+                  <Link className="navbar-brand" to="/">
+  <img src={logoimage} alt="LOGO" />
+</Link>
+
 
                   <button
                     className="navbar-toggler"
